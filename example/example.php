@@ -2,9 +2,9 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Template\TemplateManager;
-use Template\Entity\Template;
-use Template\Entity\Quote;
+use Convelio\TemplateManager;
+use Convelio\Entity\Template;
+use Convelio\Entity\Quote;
 
 $faker = \Faker\Factory::create();
 

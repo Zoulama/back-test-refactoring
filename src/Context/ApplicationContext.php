@@ -3,6 +3,7 @@ namespace Convelio\Context;
 
 use Convelio\Entity\Site;
 use Convelio\Entity\User;
+use \Convelio\Helper\SingletonTrait;
 
 class ApplicationContext
 {

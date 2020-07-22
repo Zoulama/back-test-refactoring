@@ -4,6 +4,7 @@ namespace Convelio\Repository;
 use Faker;
 use \DateTime;
 use Convelio\Entity\Quote;
+use \Convelio\Helper\SingletonTrait;
 
 class QuoteRepository implements Repository
 {

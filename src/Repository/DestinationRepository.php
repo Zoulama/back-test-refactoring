@@ -3,6 +3,7 @@
 namespace Convelio\Repository;
 
 use Convelio\Entity\Destination;
+use \Convelio\Helper\SingletonTrait;
 
 use Faker\Factory;
 

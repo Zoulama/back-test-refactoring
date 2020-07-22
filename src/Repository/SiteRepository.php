@@ -2,6 +2,7 @@
 namespace Convelio\Repository;
 
 use Convelio\Entity\Site;
+use \Convelio\Helper\SingletonTrait;
 use Faker;
 
 
