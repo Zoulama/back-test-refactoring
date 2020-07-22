@@ -1,5 +1,15 @@
 <?php
 
+namespace Convelio;
+
+use Convelio\Entity\Quote;
+use Convelio\Entity\Template;
+use Convelio\Context\ApplicationContext;
+use Convelio\Repository\QuoteRepository;
+use Convelio\Repository\SiteRepository;
+use Convelio\Repository\DestinationRepository;
+use Convelio\Entity\User;
+
 class TemplateManager
 {
     public function getTemplateComputed(Template $tpl, array $data)

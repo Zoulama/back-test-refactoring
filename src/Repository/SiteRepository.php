@@ -1,6 +1,9 @@
 <?php
+namespace Convelio\Repository;
 
-use Faker\Factory;
+use Convelio\Entity\Site;
+use Faker;
+
 
 class SiteRepository implements Repository
 {

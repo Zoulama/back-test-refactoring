@@ -1,5 +1,7 @@
 <?php
 
+namespace Convelio\Entity;
+
 class Quote
 {
     public $id;

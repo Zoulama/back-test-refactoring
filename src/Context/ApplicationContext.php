@@ -1,4 +1,8 @@
 <?php
+namespace Convelio\Context;
+
+use Convelio\Entity\Site;
+use Convelio\Entity\User;
 
 class ApplicationContext
 {

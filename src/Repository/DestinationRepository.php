@@ -1,5 +1,9 @@
 <?php
 
+namespace Convelio\Repository;
+
+use Convelio\Entity\Destination;
+
 use Faker\Factory;
 
 class DestinationRepository implements Repository

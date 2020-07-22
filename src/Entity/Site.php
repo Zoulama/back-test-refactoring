@@ -1,4 +1,5 @@
 <?php
+namespace Convelio\Entity;
 
 class Site
 {

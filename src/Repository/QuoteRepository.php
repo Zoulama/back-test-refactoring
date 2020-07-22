@@ -1,4 +1,9 @@
 <?php
+namespace Convelio\Repository;
+
+use Faker;
+use \DateTime;
+use Convelio\Entity\Quote;
 
 class QuoteRepository implements Repository
 {
